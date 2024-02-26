@@ -7,7 +7,7 @@ model_id = 'whisper-1'
 media_file_path = 'checkThisOne.m4a'
 media_file = open(media_file_path, 'rb')
 
-response = openai.audio.transcribe(
+response = openai.audio.transcribe( 
     api_key=API_KEY,
     model=model_id,
     file=media_file,
