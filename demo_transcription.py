@@ -11,7 +11,7 @@ response = openai.audio.transcribe(
     api_key=API_KEY,
     model=model_id,
     file=media_file,
-    response_format = 'srt'
+    response_format = 'srt' 
 
 )
 
